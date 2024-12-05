@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .container {
+    position:absolute;
+    width: 300px;
+  }
+
+  .phone {
+    width: 200%;
+    border: 10px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+  }
+
+  .download-bar {
+    position: absolute;
+    bottom: 10px;
+    left: 110%;
+    transform: translateX(-50%);
+    background-color: black;
+    color: white;
+    width: 90%;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .download-bar img {
+    width: 40px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+  .download-text p {
+    color: blue;
+  }
+
+ 
