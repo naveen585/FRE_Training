@@ -1,0 +1,66 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+  }
+
+  .info-card {
+    background-color: #fff;
+    border: 1px solid grey;
+    border-radius: 16px;
+    padding: 12px;
+  }
+
+  .info-card-header {
+    display: flex;
+    align-items: center;
+  }
+
+  .thumbnail {
+    border-radius: 50%;
+    margin-right: 12px;
+  }
+
+  .name {
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 4px;
+  }
+
+  .metadata {
+    color: #71767b;
+  }
+
+  .message {
+    color: #0f1419;
+    font-size: 15px;
+    margin-top: 2px;
+  }
+
+  .actions-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 425px;
+    margin-left: 60px;
+    margin-top: 12px;
+  }
+
+  .action {
+    display: flex;
+    align-items: center;
+    color: #536471;
+    font-size: 13px;
+    cursor: pointer;
+  }
+  .action svg{
+    margin-right: 12px;
+  }
+
+  .action-count {
+    color: #536471;
+    font-size: 13px;
+  }
